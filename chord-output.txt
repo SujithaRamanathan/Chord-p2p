@@ -1,0 +1,87 @@
+
+ n0 joins the Chord network
+
+**** Node ID : 13 ****
+FingerTable
+1 : 13
+
+Keys : 3  4  
+**********************
+
+
+
+ n1 joins the Chord network
+
+**** Node ID : 13 ****
+FingerTable
+1 : 44
+
+Keys : 3  4  9  50  
+**********************
+
+**** Node ID : 44 ****
+FingerTable
+1 : 13
+
+Keys : 14  15  29  
+**********************
+
+
+
+ n2 joins the Chord network
+
+**** Node ID : 13 ****
+FingerTable
+1 : 18
+2 : 44
+
+Keys : 3  4  9  50  
+**********************
+
+**** Node ID : 44 ****
+FingerTable
+1 : 13
+2 : 18
+
+Keys : 29  35  38  41  44  
+**********************
+
+**** Node ID : 18 ****
+FingerTable
+1 : 44
+2 : 13
+
+Keys : 14  15  16  18  
+**********************
+
+
+
+ Searching Key 50 on node 13
+ Node 13 searched
+ Found value - 50 on Node - 13
+
+
+ Searching Key 4 on node 13
+ Node 13 searched
+ Found value - 4 on Node - 13
+
+
+ Searching Key 29 on node 18
+ Node 18 searched
+ Node 44 searched
+ Found value - 29 on Node - 44
+
+
+
+
+
+ Searching Key 3 on node 44
+ Node 44 searched
+ Node 13 searched
+ Found value - 3 on Node - 13
+
+
+ Searching Key 18 on node 18
+ Node 18 searched
+ Found value - 18 on Node - 18
+
